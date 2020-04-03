@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--视图解析器：DispatcherServLet给他ModelAndView-->
+    <!--1.获取/ModeLAndView的数据-->
+    <!--2.解析ModeLAndView的视图名字-->
+    <!--3.拼按视图名字，找到对应的视图/MEB-INF/jsp/hello.jsp-->
+    <!--4.将数据渲染到这个视图上-->
+
+    <!--添加处理器映射器-->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    <!--添加处理器适配器-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+    <!--添加视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!--后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--自己的controller类注册到bean-->
+    <bean id="/hello" class="cn.stevekung.controller.HelloController"/>
+
+
+</beans>

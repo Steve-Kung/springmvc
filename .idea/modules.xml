@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springmvc.iml" filepath="$PROJECT_DIR$/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-01-servlet/springmvc-01-servlet.iml" filepath="$PROJECT_DIR$/springmvc-01-servlet/springmvc-01-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-02-hellomvc/springmvc-02-hellomvc.iml" filepath="$PROJECT_DIR$/springmvc-02-hellomvc/springmvc-02-hellomvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-03-annotion/springmvc-03-annotion.iml" filepath="$PROJECT_DIR$/springmvc-03-annotion/springmvc-03-annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-04-json/springmvc-04-json.iml" filepath="$PROJECT_DIR$/springmvc-04-json/springmvc-04-json.iml" />
+    </modules>
+  </component>
+</project>
