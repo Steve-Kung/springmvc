@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc-02-hellomvc/springmvc-02-hellomvc.iml" filepath="$PROJECT_DIR$/springmvc-02-hellomvc/springmvc-02-hellomvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-03-annotion/springmvc-03-annotion.iml" filepath="$PROJECT_DIR$/springmvc-03-annotion/springmvc-03-annotion.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-04-json/springmvc-04-json.iml" filepath="$PROJECT_DIR$/springmvc-04-json/springmvc-04-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-05-ajax/springmvc-05-ajax.iml" filepath="$PROJECT_DIR$/springmvc-05-ajax/springmvc-05-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-06-Interceptor/springmvc-06-Interceptor.iml" filepath="$PROJECT_DIR$/springmvc-06-Interceptor/springmvc-06-Interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-07-fileUpload/springmvc-07-fileUpload.iml" filepath="$PROJECT_DIR$/springmvc-07-fileUpload/springmvc-07-fileUpload.iml" />
     </modules>
   </component>
 </project>

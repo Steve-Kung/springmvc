@@ -10,6 +10,9 @@
         <module name="springmvc-02-hellomvc" />
         <module name="springmvc-03-annotion" />
         <module name="springmvc-04-json" />
+        <module name="springmvc-05-ajax" />
+        <module name="springmvc-06-Interceptor" />
+        <module name="springmvc-07-fileUpload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +21,9 @@
       <module name="springmvc-02-hellomvc" target="1.5" />
       <module name="springmvc-03-annotion" target="1.5" />
       <module name="springmvc-04-json" target="1.5" />
+      <module name="springmvc-05-ajax" target="1.5" />
+      <module name="springmvc-06-Interceptor" target="1.5" />
+      <module name="springmvc-07-fileUpload" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
